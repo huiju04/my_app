@@ -44,11 +44,6 @@ export const Header = () => {
     -webkit-text-stroke: 0.3px yellow;
   `;
 
-  // const Link = styled.a`
-  //   color: #000;
-  //   -webkit-text-stroke: 0.3px yellow;
-  // `;
-
   return (
     <div>
       <SHeader>
@@ -63,11 +58,11 @@ export const Header = () => {
             </Box>
 
             <Box>
-              <Link to={"/Sub/2"}>五条 悟</Link>
+              <Link to={"/Sub/2"}>인간관계</Link>
             </Box>
 
             <Box>
-              <Link to={"/Sub/3"}>五条 悟</Link>
+              <Link to={"/Sub/3"}>강함</Link>
             </Box>
           </Nav>
         </InHeader>

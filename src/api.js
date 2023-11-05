@@ -35,4 +35,8 @@ export const data = [
     id: 8,
     img: "https://mblogthumb-phinf.pstatic.net/MjAyMTA4MTJfMjI1/MDAxNjI4Nzc5NDYzNDI1.VSk6SXy5EqbylyzBR1lThMiIeUlq9P8rQsEpHdSJUDIg.Sf8pBkATOBTeLT5WsPO8NsAWjauXgUVcwiRoM-IljeUg.PNG.dhflwlskfciq/SE-37503eff-40f7-407a-8c51-6fc8ea3bdc63.png?type=w800",
   },
+  {
+    id: 9,
+    img: "https://cf.joara.com/literature_file/1682037_1658259115_thumb.jpeg",
+  },
 ];

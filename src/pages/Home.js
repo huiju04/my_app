@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { data } from "../api";
+import { Link } from "react-router-dom";
 
 console.log(data);
 
@@ -91,27 +92,29 @@ export const Home = () => {
         </Section01>
 
         <Section02>
-          <Con $url={data[2].img}>
-            <p>六眼</p>
-          </Con>
+          <Link to={"/"}>
+            <Con $url={data[2].img}>
+              <p>蒼</p>
+            </Con>
+          </Link>
 
-          <Con_2></Con_2>
+          <Link to={"/Sub/1"}>
+            <Con $url={data[3].img}>
+              <p>赫</p>
+            </Con>
+          </Link>
 
-          <Con $url={data[3].img}>
-            <p>反転術式</p>
-          </Con>
+          <Link to={"/Sub/2"}>
+            <Con $url={data[4].img}>
+              <p>茈</p>
+            </Con>
+          </Link>
 
-          <Con_2></Con_2>
-
-          <Con $url={data[4].img}>
-            <p>黑閃</p>
-          </Con>
-
-          <Con_2></Con_2>
-
-          <Con $url={data[5].img}>
-            <p>蒼</p>
-          </Con>
+          <Link to={"/Sub/3"}>
+            <Con $url={data[5].img}>
+              <p>六眼</p>
+            </Con>
+          </Link>
         </Section02>
 
         <Section03>

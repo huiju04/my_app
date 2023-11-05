@@ -25,7 +25,7 @@ export const Section_3 = () => {
   return (
     <Section_3>
       <Container $url={data[8].img}>
-        <p>천상천하 유아독존</p>
+        <p>서서히 죽어갈 뿐이라니.</p>
       </Container>
     </Section_3>
   );
